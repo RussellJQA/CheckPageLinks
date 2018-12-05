@@ -1,4 +1,7 @@
-import PySimpleGUIQt as PSG
+import PySimpleGUI as PSG
+# pylint complains when I get PySimpleGUIQt.InputCombo values via a 
+# dictionary, so I switched to PySimpleGUI with which I get no such complaint.
+# [PySimpleGUIQt is currently (December 5, 2018) in Alpha.]
 
 import CheckPageLinks
 

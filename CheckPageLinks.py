@@ -2,7 +2,11 @@ import sys
 import time
 import json
 
-import PySimpleGUIQt as PSG
+import PySimpleGUI as PSG
+# PySimpleGUIQt.InputBox values aren't editable, even with readonly=False.
+# PySimpleGUI doesn't have this problem.
+# [PySimpleGUIQt is currently (December 5, 2018) in Alpha.]
+
 import requests
 from selenium import webdriver
 
